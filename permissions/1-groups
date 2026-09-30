@@ -1,5 +1,4 @@
 clear && cd /alu-shell/permissions
-
-cat > 0-whoami << "EOF"
+cat > 8-James_Bond << "EOF"
 #!/bin/bash
-whoami
+chmod 007 hello
