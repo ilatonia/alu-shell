@@ -1,4 +1,0 @@
-clear && cd /alu-shell/permissions
-cat > 8-James_Bond << "EOF"
-#!/bin/bash
-chmod 007 hello

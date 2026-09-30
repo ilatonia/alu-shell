@@ -1,5 +1,0 @@
-clear && cd /alu-shell/permissions
-
-cat > 0-whoami << "EOF"
-#!/bin/bash
-whoami
