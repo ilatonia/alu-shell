@@ -1,10 +1,2 @@
 #!/bin/bash
 groups
-EOFclear && cd /alu-shell/permissions
-ls -1 | sort
-echo "=== Total ==="
-ls -1 | wc -l
-cd /alu-shell/permissions
-cat > 2-groups << "EOF"
-#!/bin/bash
-groups
