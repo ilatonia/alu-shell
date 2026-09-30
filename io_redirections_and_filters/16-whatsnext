@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script displays lines containing "root" and the 3 lines after them in /etc/passwd
+grep -A 3 "root" /etc/passwd
